@@ -1,4 +1,4 @@
-$(function(){
+$(function(){    
     //slider
     $(".btn_source").click(function(){  
         $(this).parents(".template").toggleClass("on").find(".source").slideToggle(200);              
