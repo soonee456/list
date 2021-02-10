@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Pangolin&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  padding:0px;
+  margin:0px;
+  font-size:14px;
+  font-family: 'Baloo Da 2', cursive;
+}
+#wrap{
+  padding:0px;
+  margin:0px;
+}
+header{
+  position:relative;
+  background:#457dad;
+  padding:2rem;
+  text-align:center;
+  color:#fff;
+/*   font-family: 'Pangolin', cursive; */  
+  letter-spacing:2px;
+}
+header h1{
+  font-size:2rem;
+  font-weight:bold;
+}
+.how{
+  display:inline-block;
+  margin-top:2rem;
+  margin-bottom:1rem;
+}
+.how dl{
+  display:block;
+  text-align:left;
+  margin-bottom:6px;
+}
+.how dl dt{
+  display:inline-block;
+}
+.how dl dd{
+  display:inline-block;
+  margin-left:5px;
+}
+#content{
+  background:#f5f5f5;
+}
+.templates{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1080px;
+  padding:20px;
+  margin: 0px auto;
+  box-sizing:border-box;
+}
+.templates .template{
+  flex: 0 0 326px;
+  margin: 0px 10px 50px 10px;  
+  text-align: center;
+/*   box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5; */
+  border-radius: 5px;
+  overflow: hidden;
+}
+.templates .template .thumbnail{
+  display: block;
+  min-height: 150px;
+  width: 100%;
+  padding:1rem;
+  background: #fff;  
+  border-radius:5px 5px 0px 0px;
+  box-sizing:border-box;
+  text-align:left;
+  border:solid 1px #d4d4d5;
+  border-bottom:none;
+}
+.template .cont{
+  position:relative;
+  border-left:solid 1px #d4d4d5;
+  border-right:solid 1px #d4d4d5;
+  position:relative;
+  padding:1rem;
+  text-align:left;
+  background:#607d8b;
+  color:#fff;
+  font-size:1rem;  
+}
+.template .btn_source{
+  display:inline-block;
+  padding:3px 8px 4px 8px;
+  margin-top:9px;  
+  border-radius:2px;
+  background:#8ab35b;
+  box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.2) inset;
+  color:#fff;
+  border:none;  
+  font-family: 'Baloo Da 2', cursive;
+  font-size:.9rem;
+  cursor:pointer;
+}
+.template .btn_copy{
+  display:inline-block;
+  padding:3px 8px 4px 8px;
+  margin-top:9px;  
+  border-radius:2px;
+  background:#e87870;
+  box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.2) inset;
+  color:#fff;
+  border:none;  
+  font-family: 'Baloo Da 2', cursive;
+  font-size:.9rem;
+  cursor:pointer;
+}
+.template .btn_copy i{
+  font-size:.8rem;
+}
+.template .source{
+  display:none;  
+  background:#343a40;
+  border:solid 1px #d4d4d5;
+  border-top:none;
+  box-sizing:border-box;
+  color:#fff;    
+}
+.template .source textarea{
+  width:100%;
+  height:200px;
+  padding:.5rem;
+  background:#343a40;
+  color:#fff;
+  font-family: 'Baloo Da 2', cursive;
+  font-size:1rem;
+  line-height:1.1rem;
+  border-radius:0px 0px 5px 5px;
+  box-sizing:border-box;
+  box-shadow:inset 0px 5px rgba(0,0,0,0.15);
+  border:none;
+}
+.template .source textarea:focus{
+  border:none;
+  outline:none;
+}
+
+/* list type */
+.diamond_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 15px;
+  font-size:16px;
+  line-height:20px;
+}
+.diamond_list li::before{
+  position:absolute;
+  top:5px;
+  left:0px;
+  display:inline-block;
+  width:7px;
+  height:7px;
+  background:#929292;  
+  content:'';
+  transform:rotate(45deg);
+}
+.circle_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 15px;
+  font-size:16px;
+  line-height:20px;
+}
+.circle_list li::before{
+  position:absolute;
+  top:5px;
+  left:0px;
+  display:inline-block;
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#929292;  
+  content:'';
+}
+.triangle_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 15px;
+  font-size:16px;
+  line-height:20px;
+}
+.triangle_list li::before{
+  position:absolute;
+  top:6px;
+  left:-1px;
+  display:inline-block;
+  width:0px;
+  height:0px;
+  border-right:solid 6px gray;
+  border-top:solid 6px transparent;
+  transform:rotate(-45deg);
+  content:'';
+}

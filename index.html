@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+          <h1>Pure CSS Dynamic Custom List Style</h1>
+          <div class="how">
+            <dl>
+              <dt>Step1.</dt>
+              <dd>Select the template you want.</dd>
+            </dl>
+            <dl>
+              <dt>Step2.</dt>
+              <dd>Click the 'View Source' button.</dd>
+            </dl>
+            <dl>
+                <dt>Step2.</dt>
+                <dd>Click the 'Copy Source' button & Past to your project.</dd>
+              </dl>
+          </div>
+        </header>
+        <div id="content">
+          <div class="templates"> 
+              <!-- 1. diamond list -->
+              <section class="template">
+                <div class="thumbnail">
+                  <ul class="diamond_list">
+                    <li>test text 1</li>
+                    <li>test text 1</li>              
+                    <li>test text 1</li>
+                    <li>long text long text long text long text long text long text text 1</li>                
+                  </ul>
+                </div>
+                <div class="cont">
+                  UL List with little circle style.
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="diamond_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+              
+<style>
+.diamond_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 15px;
+  font-size:16px;
+  line-height:20px;
+}
+.diamond_list li::before{
+  position:absolute;
+  top:5px;
+  left:0px;
+  display:inline-block;
+  width:7px;
+  height:7px;
+  background:#929292;  
+  content:'';
+  transform:rotate(45deg);
+}
+</style>              
+                  </textarea>
+                </div>
+              </section>  
+              <!-- 2. circle list -->
+              <section class="template">
+                <div class="thumbnail">
+                  <ul class="circle_list">
+                    <li>test text 1</li>
+                    <li>test text 1</li>              
+                    <li>test text 1</li>
+                    <li>long text long text long text long text long text long text text 1</li>                 
+                  </ul>
+                </div>
+                <div class="cont">
+                  UL List with little diamond style.
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="circle_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+                   
+                  </textarea>
+                </div>
+              </section>   
+              <!-- 3. triangle list -->
+              <section class="template">
+                <div class="thumbnail">
+                  <ul class="triangle_list">
+                    <li>test text 1</li>
+                    <li>test text 1</li>              
+                    <li>test text 1</li>
+                    <li>long text long text long text long text long text long text text 1</li>                 
+                  </ul>
+                </div>
+                <div class="cont">
+                  UL List with little triangle style.
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="triangle_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+                    
+                  </textarea>
+                </div>
+              </section>      
+              <!-- 4. auto number list -->  
+              <section class="template">
+                <div class="thumbnail">
+                    <ul class="auto_number_list">
+                        <li>test text 1</li>
+                        <li>test text 1</li>              
+                        <li>test text 1</li>
+                        <li>long text long text long text long text long text long text text 1</li>                 
+                    </ul>
+                </div>
+                <div class="cont">
+                  UL List with little circle style.
+                  <div>
+                    <button class="btn_source"><i class="fas fa-code"></i> View Source</button>
+                    <button class="btn_copy"><i class="fas fa-copy"></i> Copy Source</button>
+                  </div>
+                </div>
+                <div class="source">            
+                  <textarea>
+<ul class="number_list">
+  <li>test text 1</li>
+  <li>test text 1</li>              
+  <li>test text 1</li>
+  <li>long text long text long text long text long text long text text 1</li>
+</ul>     
+              
+<style>
+.diamond_list li{
+  display:block;
+  position:relative;
+  margin:0px 0px 5px 0px;
+  padding:0px 0px 0px 15px;
+  font-size:16px;
+  line-height:20px;
+}
+.diamond_list li::before{
+  position:absolute;
+  top:5px;
+  left:0px;
+  display:inline-block;
+  width:7px;
+  height:7px;
+  background:#929292;  
+  content:'';
+  transform:rotate(45deg);
+}
+</style>              
+                  </textarea>
+                </div>
+              </section>  
+          </div>
+        </div>
+      </div>
+</body>
+</html>
