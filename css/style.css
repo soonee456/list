@@ -482,3 +482,13 @@ header h1{
   transform: rotate(111deg);
   content: '';
 }
+footer{
+  background:#555;
+  color:#ccc;
+  text-align:center;
+  height:60px;
+  line-height:60px;
+}
+footer a{
+  color:#ccc;
+}
