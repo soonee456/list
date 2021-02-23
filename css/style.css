@@ -89,6 +89,9 @@ header h1{
   color:#fff;
   font-size:1rem;  
 }
+.template .cont h4{
+  font-weight:normal;
+}
 .template .btn_source{
   display:inline-block;
   padding:3px 8px 4px 8px;
