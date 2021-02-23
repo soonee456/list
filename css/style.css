@@ -53,7 +53,7 @@ header h1{
 .templates{
   display: flex;
   flex-wrap: wrap;
-  width: 1080px;
+  max-width: 1080px;
   padding:20px;
   margin: 0px auto;
   box-sizing:border-box;
